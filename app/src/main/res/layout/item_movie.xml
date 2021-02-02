@@ -24,7 +24,7 @@
         android:transitionName="title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Random movie title" />
+        tools:text="Sample Movie" />
     <TextView
         android:id="@+id/tvOverview"
         android:layout_toEndOf="@id/ivPoster"
@@ -32,5 +32,5 @@
         android:layout_below="@id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Random movie description" />
+        tools:text="Sample movie description." />
 </RelativeLayout>
