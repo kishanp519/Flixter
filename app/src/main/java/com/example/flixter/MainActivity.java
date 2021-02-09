@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         movies = new ArrayList<>();
-        RecyclerView rvMovies = findViewById(R.id.rvMovies);
+        rvMovies = findViewById(R.id.rvMovies);
         MovieAdapter movieAdapter = new MovieAdapter(this, movies);
         rvMovies.setAdapter(movieAdapter);
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
@@ -61,8 +61,5 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onFailure");
             }
         });
-
-        rvMovies = findViewById(R.id.rvMovies);
-        movies = new ArrayList<>();
     }
 }
